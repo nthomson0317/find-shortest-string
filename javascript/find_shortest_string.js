@@ -5,8 +5,15 @@
 // }
 
 function findShortestString(arr){
-  
+  let newArr = []
+ let length = arr.forEach((a => newArr.push((a.length))))
+ 
+ for (let i = 0; i < newArr; i ++){
+   
+ }
+ return newArr
 }
+
 if (require.main === module) {
   // add your own tests in here
   console.log("Expecting: 'a'");
