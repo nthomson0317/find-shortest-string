@@ -1,7 +1,12 @@
-function findShortestString(arr) {
-  // type your code here
-}
+// function findShortestString(arr) {
+//   let lengthArr = arr.map((element)=> element.length)
+//   let smallest = arr[lengthArr.indexOf(Math.min(...lengthArr))]
+//   return smallest
+// }
 
+function findShortestString(arr){
+  
+}
 if (require.main === module) {
   // add your own tests in here
   console.log("Expecting: 'a'");
@@ -17,6 +22,8 @@ if (require.main === module) {
   console.log("Expecting: 'lily'");
   console.log("=>", findShortestString(['flower', 'juniper', 'lily', 'dadelion']));
 
+  console.log("Expecting: 'a'");
+  console.log("=>", findShortestString(['aaaa', 'a', 'bbbb', 'b']));
   // BENCHMARK HERE
 }
 
